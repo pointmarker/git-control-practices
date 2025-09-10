@@ -1,0 +1,36 @@
+body{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+table{
+    display: block;
+    border:2px solid black;
+    border-radius: .5em;
+}
+
+th,td{
+    border:1px solid black;
+    padding: 1em;
+    text-align: center;
+    width: auto;
+}   
+table tbody tr:nth-child(2) td:nth-child(1){
+    border-bottom-left-radius: .5em;
+}
+table tbody tr:nth-child(2) td:nth-child(7){
+    border-bottom-right-radius: .5em;
+}
+
+table thead tr th:nth-child(1){
+    border-top-left-radius: .5em;
+}
+
+table thead tr th:nth-child(7){
+    border-top-right-radius: .5em;
+}
+
+
