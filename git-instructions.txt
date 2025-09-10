@@ -1,1 +1,4 @@
 the first line
+git log = to see what did you committed
+git restore <filename> - git checkout -- <filename> = it will change your file with the situation of the last commit of that file
+
