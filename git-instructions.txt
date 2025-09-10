@@ -4,5 +4,5 @@ git restore <filename> - git checkout -- <filename> = it will change your file w
 git branch -M <branchname> branchname adındaki branche geçiş yapar, yoksa oluşturur ve öyle geçiş yapar
 git branch <branchname> branchname adında branch oluşturur
 git checkout <branchname> geçiş yapar
-
+git push -u origin <branchname> branchname için maine bağlı bi branch oluşturur remote tarafında
 merge sırasında commit mesajı değiştirmek istermisin diyinde :wq (write & quit) yazarak çıkış yapılır merge tamamlanır
