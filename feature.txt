@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 feature1 will try to get conflict with feature2
+=======
+feature1 tried to get conflict with feature2 and got that done
+>>>>>>> feature2
