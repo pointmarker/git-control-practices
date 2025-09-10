@@ -22,3 +22,9 @@ eğer commite ekleme yapılmak istenirse, önce ekleme yapıp stage e ekle, sonr
 bu son commitin içinde o değişikliğin de olmasını sağlayacak
 
 - git branch -D <branchname> branchin silinmesini sağlar
+
+- git reset <flag> <commit-hash>
+    flag: --hard, --soft | commit-hash: HEAD~num, 45asd5a gibi
+    hard reset o comitteki tüm değişiklikleri siler
+    soft reset commiti geri alır ve değişiklikleri staging e ekler
+    mixed iste (flagsiz kullanım) değişiklikleri unstaged olarak geri getirir
