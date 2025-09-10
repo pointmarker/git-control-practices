@@ -1,3 +1,9 @@
+/**
+ * when you press double click on cells of table
+ * it will turn input el and let you write whatever you want
+ * then you can keep it like that
+ */
+
 const tbody = document.querySelector("table").querySelector("tbody")
 
 tbody.addEventListener('dblclick', (e) => {
