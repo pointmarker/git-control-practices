@@ -1,0 +1,3 @@
+feature1 implementation directions
+
+1- will try red highlight when mouse hovers on td elements

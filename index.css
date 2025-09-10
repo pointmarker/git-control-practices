@@ -32,5 +32,12 @@ table thead tr th:nth-child(1){
 table thead tr th:nth-child(7){
     border-top-right-radius: .5em;
 }
+td{
+    transition:all 1s ease;
+}
+
+td:hover{
+    border: 1px solid red;
+}
 
 
